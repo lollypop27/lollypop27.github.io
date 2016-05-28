@@ -3,7 +3,6 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
-  <meta http-equiv="refresh" content="3" >
   <title>Music is my life</title>
   <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet' type='text/css'>
   <link href='https://fonts.googleapis.com/css?family=BenchNine' rel='stylesheet' type='text/css'>
@@ -17,7 +16,7 @@
 
 
       }
-  p, table  { font-family: 'Poppins', sans-serif;
+  p, table, li  { font-family: 'Poppins', sans-serif;
         color: #fff;
         font-size: 13px;
         line-height: 13px;
@@ -38,6 +37,13 @@
   h4{
     font-size: 13px;
   }
+  a {
+    color: #F2DC85;
+    text-decoration: none;
+  }
+  a:hover{
+    color: #EB6D1A;
+  }
   #redContainer {
         width: 100%;
         height: 20px;
@@ -47,9 +53,7 @@
         color: #FFF;
         z-index: 1;
       }
-  .menu {
-    font-family: 'Poppins', sans-serif;
-  }
+
   #rightBox {
         width: 300px;
         margin-right: 20px;
@@ -62,10 +66,24 @@
         background-color: rgba(69, 72, 87, 0.5);
         width: 500px;
         padding: 10px;
-}
-
-
+  }
+  #topDjs{
+        margin-left: 50px;
+        margin-top: 10px;
+        background-color: rgba(69, 72, 87, 0.5);
+        width: 500px;
+        padding: 10px;
     }
+  .headerWhite{
+      color: #FFF;
+  }
+  #container{
+    width: 500px;
+    position: absolute;
+    bottom: 320px;
+    margin-left: 340px;
+
+  }
   </style>
 </head>
 <body>
@@ -79,9 +97,9 @@
 <h1>Music Matters!<br> <span style="color:white;">It changes the precence of any place, at any given time...</span></h1>
 </div>
 
-<!--list box on home page top right-->
+<!--table box on home page top right-->
   <div id="topSongs">
-    <h1>Top Dance Songs of 2016</h1>
+    <h1 class="headerWhite">Top Dance Songs of 2016</h1>
     <h3> <span style="color:white">The Top 10 Biggest Selling Songs of 2016 so far (sales only):</span></h3>
     <table border="0" width="100%">
     <tbody>
@@ -154,5 +172,20 @@
     </tbody>
     </table>
   </div>
+
+  <div style="clear:left"></div>
+<!--list box on home page top right-->
+  <div id="topDjs">
+    <h1 class="headerWhite">Top 5 Djs of 2016</h1>
+    <ul>
+      <li><a href="https://www.djhardwell.com/">Hardwell</a></li>
+      <li><a href="http://www.alessoworld.com/">Alesso</a></li>
+      <li><a href="http://www.wandwmusic.com/"> W & W</a></li>
+      <li><a href="http://nervomusic.com/">Nervo</a></li>
+      <li><a href="http://www.nickyromero.com/">Nicky Romero</a></li>
+  </div>
+  <div id="container">
+    <img <source src="http://rs397.pbsrc.com/albums/pp54/djallien/MIS%20GIF/080321071600252701854014.gif~c200" type="mimetype">
+</div>
 </body>
 </html>
